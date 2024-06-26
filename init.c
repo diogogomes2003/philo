@@ -1,14 +1,14 @@
 #include "philo.h"
 
-int	data_init(t_global_var *data, char **argv)
+int	data_init(t_global_var *data, char **av)
 {
-	data->nbr_phils = ft_atoi(argv[1]);
-	data->time_to_die = ft_atoi(argv[2]);
-	data->time_to_eat = ft_atoi(argv[3]);
-	data->time_to_sleep = ft_atoi(argv[4]);
+	data->nbr_phils = ft_atoi(av[1]);
+	data->time_to_die = ft_atoi(av[2]);
+	data->time_to_eat = ft_atoi(av[3]);
+	data->time_to_sleep = ft_atoi(av[4]);
 	data->end = 0;
-	if (argv[5])
-		data->nbr_meals = ft_atoi(argv[5]);
+	if (av[5])
+		data->nbr_meals = ft_atoi(av[5]);
 	else
 		data->nbr_meals = -2;
 	if (data->nbr_phils < 0 || data->time_to_die < 0

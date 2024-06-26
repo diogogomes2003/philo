@@ -33,14 +33,14 @@ int	one_philo(t_global_var *data)
 	return (0);
 }
 
-int	main(int argc, char **argv)
+int	main(int ac, char **av)
 {
 	t_philo			*philo;
 	t_global_var	data;
 
-	if (argc == 5 || argc == 6)
+	if (ac == 5 || ac == 6)
 	{
-		if (data_init(&data, argv) == -1)
+		if (data_init(&data, av) == -1)
 			return (-1);
 		if (philo_init(&philo, &data) == -1)
 		{
