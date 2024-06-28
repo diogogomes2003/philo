@@ -1,13 +1,24 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   philo.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dduarte- <dduarte-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/06/28 08:26:09 by dduarte-          #+#    #+#             */
+/*   Updated: 2024/06/28 08:26:09 by dduarte-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #ifndef PHILO_H
 # define PHILO_H
 
 # include <pthread.h>
 # include <unistd.h>
-# include <stdlib.h>
-# include <stdio.h>
 # include <string.h>
+# include <stdlib.h>
 # include <sys/time.h>
+# include <stdio.h>
 
 typedef struct s_philo
 {

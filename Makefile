@@ -1,4 +1,16 @@
-SRC = checks.c init.c main.c routine.c threads.c utils.c
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: dduarte- <dduarte-@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/06/28 08:28:22 by dduarte-          #+#    #+#              #
+#    Updated: 2024/06/28 08:28:22 by dduarte-         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+SRC = checks.c init.c utils.c routine.c threads.c main.c
 
 NAME = philo
 
